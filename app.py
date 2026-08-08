@@ -22,7 +22,8 @@ import ee
 import streamlit as st
 import folium
 from streamlit_folium import st_folium
-EE_PROJECT = "your-gcp-project-id"  # <-- set this
+
+EE_PROJECT = "ee-abhinandpsreenivasan1"
 
 st.set_page_config(layout="wide", page_title="Palakkad Land-Cover Explorer")
 
