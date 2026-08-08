@@ -20,8 +20,8 @@ so the app loads instantly instead of recomputing every run.
 
 import ee
 import streamlit as st
-import geemap.foliumap as geemap
-
+import folium
+from streamlit_folium import st_folium
 EE_PROJECT = "your-gcp-project-id"  # <-- set this
 
 st.set_page_config(layout="wide", page_title="Palakkad Land-Cover Explorer")
