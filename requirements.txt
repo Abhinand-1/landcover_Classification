@@ -1,4 +1,6 @@
-streamlit
+streamlit>=1.40,<2.0
 earthengine-api
 geemap
 folium
+xyzservices<2025.1
+branca
